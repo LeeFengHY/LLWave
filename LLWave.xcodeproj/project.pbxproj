@@ -12,6 +12,8 @@
 		8FC5C09A1F5E58D2003EFC2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC5C0981F5E58D2003EFC2F /* Main.storyboard */; };
 		8FC5C09C1F5E58D2003EFC2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC5C09B1F5E58D2003EFC2F /* Assets.xcassets */; };
 		8FC5C09F1F5E58D2003EFC2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC5C09D1F5E58D2003EFC2F /* LaunchScreen.storyboard */; };
+		8FC5C0A71F5E5904003EFC2F /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5C0A61F5E5904003EFC2F /* WaveView.swift */; };
+		8FDDD6431F5FCB33007AB232 /* 水波纹.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDD6421F5FCB33007AB232 /* 水波纹.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8FC5C09B1F5E58D2003EFC2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FC5C09E1F5E58D2003EFC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FC5C0A01F5E58D2003EFC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC5C0A61F5E5904003EFC2F /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		8FDDD6421F5FCB33007AB232 /* 水波纹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水波纹.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		8FC5C0931F5E58D2003EFC2F /* LLWave */ = {
 			isa = PBXGroup;
 			children = (
+				8FDDD6421F5FCB33007AB232 /* 水波纹.png */,
+				8FC5C0A61F5E5904003EFC2F /* WaveView.swift */,
 				8FC5C0941F5E58D2003EFC2F /* AppDelegate.swift */,
 				8FC5C0961F5E58D2003EFC2F /* ViewController.swift */,
 				8FC5C0981F5E58D2003EFC2F /* Main.storyboard */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC5C09F1F5E58D2003EFC2F /* LaunchScreen.storyboard in Resources */,
+				8FDDD6431F5FCB33007AB232 /* 水波纹.png in Resources */,
 				8FC5C09C1F5E58D2003EFC2F /* Assets.xcassets in Resources */,
 				8FC5C09A1F5E58D2003EFC2F /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC5C0971F5E58D2003EFC2F /* ViewController.swift in Sources */,
+				8FC5C0A71F5E5904003EFC2F /* WaveView.swift in Sources */,
 				8FC5C0951F5E58D2003EFC2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +309,7 @@
 				8FC5C0A51F5E58D2003EFC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
